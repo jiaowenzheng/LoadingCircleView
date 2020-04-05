@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.jiao.loading.RoundView
+        android:id="@+id/round_1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        app:layout_constraintRight_toLeftOf="@id/round_2"
+        app:layout_constraintTop_toTopOf="@id/round_2"
+        app:layout_constraintBottom_toBottomOf="@id/round_2"
+        />
+
+    <com.jiao.loading.RoundView
+        android:id="@+id/round_2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <com.jiao.loading.RoundView
+        android:id="@+id/round_3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintLeft_toRightOf="@id/round_2"
+        app:layout_constraintTop_toTopOf="@id/round_2"
+        app:layout_constraintBottom_toBottomOf="@id/round_2"
+        />
+
+<!--    <com.jiao.canvasround.RoundView-->
+<!--        android:id="@+id/round_7"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        app:layout_constraintRight_toLeftOf="@id/round_2"-->
+<!--        app:layout_constraintTop_toTopOf="@id/round_2"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/round_2"-->
+<!--        />-->
+
+<!--    <com.jiao.canvasround.RoundView-->
+<!--        android:id="@+id/round_4"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        />-->
+
+<!--    <com.jiao.canvasround.RoundView-->
+<!--        android:id="@+id/round_5"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        app:layout_constraintLeft_toRightOf="@id/round_2"-->
+<!--        app:layout_constraintTop_toTopOf="@id/round_2"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/round_2"-->
+<!--        />-->
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="缩放"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
