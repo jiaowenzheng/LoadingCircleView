@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/verctor_play_2"
+    >
+    <target
+        android:animation="@animator/animator_play_to_pause_2"
+        android:name="play"/>
+
+</animated-vector>
